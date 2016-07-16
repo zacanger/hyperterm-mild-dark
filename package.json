@@ -1,14 +1,30 @@
 {
-  "name": "hyperterm-atom-dark",
-  "version": "1.0.0",
-  "description": "Hyperterm theme based on Atom One Dark theme",
+  "name": "hyperterm-mild-dark",
+  "description": "Mild Dark HyperTerm Theme",
+  "version": "0.0.1",
+  "author": {
+    "name": "Zac Anger",
+    "email": "zac@zacanger.com",
+    "url": "http://zacanger.com"
+  },
+  "license": "WTFPL",
   "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "test": ""
+  },
+  "homepage": "https://github.com/zacanger/hyperterm-mild-dark#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zacanger/hyperterm-mild-dark.git"
+  },
+  "bugs": "https://github.com/zacanger/hyperterm-mild-dark/issues",
   "keywords": [
-    "hyperterm",
-    "hyperterm-theme",
+    "atom",
     "colors",
-    "atom"
+    "hyperterm",
+    "hyperterm-theme"
   ],
-  "author": "Mark Otto",
-  "license": "MIT"
+  "dependencies": {},
+  "devDependencies": {}
 }
