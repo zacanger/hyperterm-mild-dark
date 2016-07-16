@@ -9,7 +9,7 @@ which was forked from @jxnblk's [HyperTerminator](https://github.com/jxnblk/hype
 2. Update your list of plugins to include `hyperterm-mild-dark`, like so:
 
 ```javascript
-plugins : [ 'hyperterm-atom-dark' ]
+plugins : [ 'hyperterm-mild-dark' ]
 ```
 
 3. Fully reload HyperTerm (`Cmd+Shift+R), and tada!
