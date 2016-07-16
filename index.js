@@ -4,21 +4,21 @@ const
 , cursorColor     = foregroundColor
 , colors          = [
     backgroundColor
-  , '#f68080'  // red
-  , '#b1ec73'  // green
-  , '#eacd84'  // yellow
-  , '#7fdeec'  // blue
-  , '#C678DD'  // pink
-  , '#56B6C2'  // cyan
-  , '#d2d8cf'  // light gray
-  , '#a2a597'  // medium gray
-  , '#e06c75'  // red
-  , '#cbe5af'  // green
-  , '#f4a748'  // yellow
-  , '#56b6c2'  // blue
-  , '#C678DD'  // pink
-  , '#56B6C2'  // cyan
-  , '#e6f0e7'  // white
+  , '#f68080'
+  , '#b1ec73'
+  , '#eacd84'
+  , '#7fdeec'
+  , '#C678DD'
+  , '#56B6C2'
+  , '#d2d8cf'
+  , '#a2a597'
+  , '#e06c75'
+  , '#cbe5af'
+  , '#f4a748'
+  , '#56b6c2'
+  , '#C678DD'
+  , '#56B6C2'
+  , '#e6f0e7'
   , foregroundColor
   ]
 
