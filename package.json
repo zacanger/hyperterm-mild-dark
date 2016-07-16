@@ -1,17 +1,16 @@
 {
   "name": "hyperterm-mild-dark",
   "description": "Mild Dark HyperTerm Theme",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "author": {
     "name": "Zac Anger",
     "email": "zac@zacanger.com",
     "url": "http://zacanger.com"
   },
-  "license": "WTFPL",
+  "license": "MIT",
   "main": "index.js",
   "scripts": {
-    "start": "node index",
-    "test": ""
+    "test": "echo 'nope sorry'"
   },
   "homepage": "https://github.com/zacanger/hyperterm-mild-dark#readme",
   "repository": {
