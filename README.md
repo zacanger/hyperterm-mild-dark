@@ -1,8 +1,8 @@
+# Atom One Dark for HyperTerm
 
-# H Y P E R T E R M I N A T O R
+Hyperterm theme based on the Atom One Dark themes.
 
-Hyperterm theme for cybernetic organisms
+![Screenshot](https://cloud.githubusercontent.com/assets/98681/16896200/91059c30-4b41-11e6-98a5-840e1516770d.png)
 
-![Screenshot](https://cloud.githubusercontent.com/assets/3451712/16895940/c14d618c-4b52-11e6-99ea-49a142a49a93.png)
 
 MIT License
