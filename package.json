@@ -1,14 +1,14 @@
 {
-  "name": "hyperterminator",
-  "version": "1.0.0-beta.2",
-  "description": "Hyperterm theme for cybernetic organisms",
+  "name": "hyperterm-atom-dark",
+  "version": "1.0.0",
+  "description": "Hyperterm theme based on Atom One Dark theme",
   "main": "index.js",
   "keywords": [
     "hyperterm",
     "hyperterm-theme",
     "colors",
-    "terminator"
+    "atom"
   ],
-  "author": "Brent Jackson",
+  "author": "Mark Otto",
   "license": "MIT"
 }
