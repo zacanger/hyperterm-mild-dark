@@ -1,24 +1,25 @@
 
-const backgroundColor = '#220000'
-const foregroundColor = '#ff3300'
+const backgroundColor = '#21252b'
+const foregroundColor = '#abb2bf'
 const cursorColor = foregroundColor
 
 const colors = [
   backgroundColor,
-  '#ff3300',
-  '#ff6600',
-  '#ff6600',
-  '#ff0000',
-  '#cc0000',
-  '#ff0000',
-  '#994433',
-  '#994433',
-  '#ff0000',
-  '#ff3300',
-  '#ff6600',
-  '#ff6600',
-  '#ff0000',
-  '#ff0000',
+  '#e06c75', // red
+  '#98c379', // green
+  '#d19a66', // yellow
+  '#56b6c2', // blue
+  '#C678DD', // pink
+  '#56B6C2', // cyan
+  '#d0d0d0', // light gray
+  '#808080', // medium gray
+  '#e06c75', // red
+  '#98c379', // green
+  '#d19a66', // yellow
+  '#56b6c2', // blue
+  '#C678DD', // pink
+  '#56B6C2', // cyan
+  '#ffffff' // white
   foregroundColor
 ]
 
@@ -30,7 +31,6 @@ exports.middleware = (store) => (next) => (action) => {
       action.config.backgroundColor = backgroundColor
       action.config.cursorColor = cursorColor
       action.config.colors = colors
-      console.log('H Y P E R T E R M I N A T O R')
   }
   next(action)
 }
