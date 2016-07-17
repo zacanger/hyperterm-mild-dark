@@ -9,8 +9,8 @@ const
 , orange          = '#f4a748'
 , sage            = '#cbe5af'
 , dryRed          = '#e06c75'
-, medDust        = '#a2a597'
-, darkDust        = '#51534d'
+, medDust         = '#a2a597'
+, darkDust        = '#181a13'
 , lightDust       = '#d2d8cf'
 , lightBlue       = '#7fdeec'
 , mustard         = '#eacd84'
@@ -63,7 +63,7 @@ exports.decorateConfig = config => {
   , css : `
       ${config.css || ''}
       .tab_tab {
-        color: ${creamRed} !important;
+        color: ${turquoise} !important;
         background-color: ${darkDust};
       }
       .tabs_list {
@@ -72,8 +72,8 @@ exports.decorateConfig = config => {
       }
       .tab_tab.tab_active {
         font-weight: 700;
-        color: ${dryRed} !important;
-        background-color: ${foregroundColor};
+        color: ${softPurple} !important;
+        background-color: ${backgroundColor};
         border-color: ${mustard};
       }
       .tab_active:before {
