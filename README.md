@@ -1,6 +1,6 @@
 # Mild Dark Theme for HyperTerm
 
-![screenshot](screenshot.png)
+![screenshot](http://zacanger.com/hyperterm.png)
 
 Forked from the [Atom One Dark Theme for HyperTerm](https://github.com/mdo/hyperterm-atom-dark)
 by @mdo, which was forked from @jxnblk's
