@@ -43,6 +43,7 @@ exports.decorateConfig = config => {
   , borderColor
   , cursorColor
   , colors
+  , fontFamily : ${config.fontFamily || '"Fantasque Sans Mono", "Hack", "Hasklig", "Fira Code", monospace'}
   , termCSS : `
       ${config.termCSS || ''}
       .cursor-node {
