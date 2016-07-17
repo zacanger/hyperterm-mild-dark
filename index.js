@@ -3,23 +3,36 @@ const
 , foregroundColor = '#f8f9ea'
 , borderColor     = '#e5e5e5'
 , cursorColor     = '#e6e7d6'
+, paleGreen       = '#e6f0e7'
+, turquoise       = '#56b6c2'
+, softPurple      = '#c678dd'
+, orange          = '#f4a748'
+, sage            = '#cbe5af'
+, dryRed          = '#e06c75'
+, medDust        = '#a2a597'
+, darkDust        = '#51534d'
+, lightDust       = '#d2d8cf'
+, lightBlue       = '#7fdeec'
+, mustard         = '#eacd84'
+, lime            = '#b1ec73'
+, creamRed        = '#f68080'
 , colors          = [
     backgroundColor
-  , '#f68080'
-  , '#b1ec73'
-  , '#eacd84'
-  , '#7fdeec'
-  , '#C678DD'
-  , '#56B6C2'
-  , '#d2d8cf'
-  , '#a2a597'
-  , '#e06c75'
-  , '#cbe5af'
-  , '#f4a748'
-  , '#56b6c2'
-  , '#C678DD'
-  , '#56B6C2'
-  , '#e6f0e7'
+  , creamRed
+  , lime
+  , mustard
+  , lightBlue
+  , softPurple
+  , turquoise
+  , lightDust
+  , medDust
+  , dryRed
+  , sage
+  , orange
+  , turquoise
+  , softPurple
+  , turquoise
+  , paleGreen
   , foregroundColor
   ]
 
@@ -35,22 +48,36 @@ exports.decorateConfig = config => {
       .cursor-node {
         mix-blend-mode: difference;
       }
+      .cursor-node[focus=true]:not([moving]) {
+        animation: blink 1s ease infinite;
+      }
+      @keyframes blink {
+        0%, 50% {
+          opacity: 0;
+        }
+        50%, 90% {
+          opacity: 1;
+        }
+      }
     `
   , css : `
       ${config.css || ''}
       .tab_tab {
-        color: ${foregroundColor} !important;
-        background-color: ${backgroundColor};
+        color: ${creamRed} !important;
+        background-color: ${darkDust};
       }
       .tabs_list {
-        background-color: ${backgroundColor};
-        border-color: ${borderColor};
+        background-color: ${darkDust};
+        border-color: ${mustard};
       }
       .tab_tab.tab_active {
         font-weight: 700;
-        color: ${backgroundColor} !important;
+        color: ${dryRed} !important;
         background-color: ${foregroundColor};
-        border-color: ${borderColor};
+        border-color: ${mustard};
+      }
+      .tab_active:before {
+        border-color: ${sage};
       }
     `
   })
