@@ -1,8 +1,8 @@
 const
   backgroundColor = '#090909'
 , foregroundColor = '#f8f9ea'
-, borderColor     = foregroundColor
-, cursorColor     = foregroundColor
+, borderColor     = '#e5e5e5'
+, cursorColor     = '#e6e7d6'
 , colors          = [
     backgroundColor
   , '#f68080'
@@ -23,41 +23,34 @@ const
   , foregroundColor
   ]
 
-  // exports.middleware = store => next => action => {
-  // switch (action.type) {
-    // case 'CONFIG_LOAD':
-      // case 'CONFIG_RELOAD':
-      // action.config.foregroundColor = foregroundColor
-      // action.config.backgroundColor = backgroundColor
-      // action.config.cursorColor     = cursorColor
-      // action.config.colors          = colors
-      // }
-  // next(action)
-  // }
-
 exports.decorateConfig = config => {
   return Object.assign({}, config, {
-    foregroundColor,
-    backgroundColor,
-    borderColor,
-    cursorColor,
-    colors,
-    termCSS: `
+    foregroundColor
+  , backgroundColor
+  , borderColor
+  , cursorColor
+  , colors
+  , termCSS : `
       ${config.termCSS || ''}
       .cursor-node {
         mix-blend-mode: difference;
       }
-    `,
-    css: `
+    `
+  , css : `
       ${config.css || ''}
       .tab_tab {
         color: ${foregroundColor} !important;
         background-color: ${backgroundColor};
       }
+      .tabs_list {
+        background-color: ${backgroundColor};
+        border-color: ${borderColor};
+      }
       .tab_tab.tab_active {
-        font-weight: bold;
+        font-weight: 700;
         color: ${backgroundColor} !important;
         background-color: ${foregroundColor};
+        border-color: ${borderColor};
       }
     `
   })
