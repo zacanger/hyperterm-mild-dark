@@ -1,7 +1,7 @@
 const
   backgroundColor = '#090909'
 , foregroundColor = '#f8f9ea'
-, borderColor     = '#e5e5e5'
+, borderColor     = '#5d6560'
 , cursorColor     = '#e6e7d6'
 , paleGreen       = '#e6f0e7'
 , turquoise       = '#56b6c2'
@@ -52,7 +52,7 @@ exports.decorateConfig = config => {
         animation: blink 1s ease infinite;
       }
       @keyframes blink {
-        0%, 50% {
+        0%, 40% {
           opacity: 0;
         }
         50%, 90% {
