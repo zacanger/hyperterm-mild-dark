@@ -51,7 +51,7 @@ exports.decorateConfig = config => {
         mix-blend-mode: difference;
       }
       .cursor-node[focus=true]:not([moving]) {
-        animation: blink .5s ease infinite;
+        animation: blink 1s ease infinite;
       }
       @keyframes blink {
         0%, 40% {
