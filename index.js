@@ -1,5 +1,5 @@
 const
-  backgroundColor = '#262724'
+  backgroundColor = '#21211f'
 , borderColor     = '#5d6560'
 , creamRed        = '#f68080'
 , cursorColor     = '#e6e7d6'
@@ -43,7 +43,7 @@ exports.decorateConfig = config => {
   , borderColor
   , cursorColor
   , colors
-  , fontSize   : config.fontSize || 14
+  , fontSize   : config.fontSize || 16
   , fontFamily : config.fontFamily || '"Fantasque Sans Mono", "Hack", "Hasklig", "Fira Code", monospace'
   , termCSS    : `
       ${config.termCSS || ''}
@@ -51,7 +51,7 @@ exports.decorateConfig = config => {
         mix-blend-mode: difference;
       }
       .cursor-node[focus=true]:not([moving]) {
-        animation: blink 1s ease infinite;
+        animation: blink .5s ease infinite;
       }
       @keyframes blink {
         0%, 40% {
