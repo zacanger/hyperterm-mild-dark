@@ -1,5 +1,5 @@
 const
-  backgroundColor = '#161414'
+  backgroundColor = '#262724'
 , borderColor     = '#5d6560'
 , creamRed        = '#f68080'
 , cursorColor     = '#e6e7d6'
@@ -69,16 +69,16 @@ exports.decorateConfig = config => {
       }
       .tabs_list {
         background-color: ${darkDust};
-        border-color: ${mustard};
+        border-color: ${medDust};
       }
       .tab_tab.tab_active {
         font-weight: 700;
         color: ${softPurple} !important;
         background-color: ${backgroundColor};
-        border-color: ${mustard};
+        border-color: ${medDust};
       }
       .tab_active:before {
-        border-color: ${sage};
+        border-color: ${medDust};
       }
       .header_header {
         top: 0;
