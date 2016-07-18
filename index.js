@@ -43,8 +43,9 @@ exports.decorateConfig = config => {
   , borderColor
   , cursorColor
   , colors
+  , fontSize   : config.fontSize || 14
   , fontFamily : config.fontFamily || '"Fantasque Sans Mono", "Hack", "Hasklig", "Fira Code", monospace'
-  , termCSS : `
+  , termCSS    : `
       ${config.termCSS || ''}
       .cursor-node {
         mix-blend-mode: difference;
@@ -61,7 +62,7 @@ exports.decorateConfig = config => {
         }
       }
     `
-  , css : `
+  , css      : `
       ${config.css || ''}
       .tab_tab {
         color: ${turquoise} !important;
