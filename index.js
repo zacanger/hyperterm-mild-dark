@@ -1,5 +1,5 @@
 const
-  backgroundColor = '#090909'
+  backgroundColor = '#161414'
 , borderColor     = '#5d6560'
 , creamRed        = '#f68080'
 , cursorColor     = '#e6e7d6'
@@ -15,7 +15,7 @@ const
 , paleGreen       = '#e6f0e7'
 , sage            = '#cbe5af'
 , softPurple      = '#c678dd'
-, turquoise       = '#56b6c2'
+, turquoise       = '#75cec8'
 , colors          = [
     backgroundColor
   , creamRed
@@ -79,6 +79,11 @@ exports.decorateConfig = config => {
       }
       .tab_active:before {
         border-color: ${sage};
+      }
+      .header_header {
+        top: 0;
+        right: 0;
+        left: 0;
       }
     `
   })
