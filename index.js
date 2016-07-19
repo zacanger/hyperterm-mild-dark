@@ -1,5 +1,5 @@
 const
-  backgroundColor = '#131413'
+  backgroundColor = '#161716'
 , borderColor     = '#5d6560'
 , creamRed        = '#f68080'
 , cursorColor     = '#e6e7d6'
@@ -44,7 +44,7 @@ exports.decorateConfig = config => {
   , cursorColor
   , colors
   , fontSize   : config.fontSize || 16
-  , fontFamily : config.fontFamily || '"Fira Code", "Hasklig", "Hasklig", "Fantasque Sans Mono", monospace'
+  , fontFamily : config.fontFamily || '"Hack", "Hasklig", "Fira Code", "Fantasque Sans Mono", monospace'
   , termCSS    : `
       ${config.termCSS || ''}
       .cursor-node {
