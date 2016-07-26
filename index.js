@@ -43,9 +43,10 @@ exports.decorateConfig = config => {
   , borderColor
   , cursorColor
   , colors
-  , fontSize   : config.fontSize || 16
-  , fontFamily : config.fontFamily || '"Hack", "Hasklig", "Fira Code", "Fantasque Sans Mono", monospace'
-  , termCSS    : `
+  , cursorShape : config.cursorShape || 'UNDERLINE'
+  , fontSize    : config.fontSize || 16
+  , fontFamily  : config.fontFamily || '"Hack", "Hasklig", "Fira Code", "Fantasque Sans Mono", monospace'
+  , termCSS     : `
       ${config.termCSS || ''}
       .cursor-node {
         mix-blend-mode: difference;
