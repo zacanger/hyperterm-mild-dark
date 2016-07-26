@@ -2,7 +2,7 @@ const
   backgroundColor = '#161716'
 , borderColor     = '#5d6560'
 , creamRed        = '#f68080'
-, cursorColor     = '#e6e7d6'
+, cursorColor     = 'rgba(230,231,214,0.6)'
 , darkDust        = '#181a13'
 , dryRed          = '#e06c75'
 , foregroundColor = '#f8f9ea'
