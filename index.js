@@ -35,57 +35,55 @@ const
   , lightWhite   : foregroundColor
   }
 
-exports.decorateConfig = config => {
-  return Object.assign({}, config, {
-    foregroundColor
-  , backgroundColor
-  , borderColor
-  , cursorColor
-  , colors
-  , cursorShape : config.cursorShape || 'UNDERLINE'
-  , fontSize    : config.fontSize    || 16
-  , fontFamily  : config.fontFamily  || '"Hack", "Hasklig", "Fira Code", "Fantasque Sans Mono", monospace'
-  , termCSS     : `
-      ${config.termCSS || ''}
-      .cursor-node {
-        mix-blend-mode: difference;
+exports.decorateConfig = config => Object.assign({}, config, {
+  foregroundColor
+, backgroundColor
+, borderColor
+, cursorColor
+, colors
+, cursorShape : config.cursorShape || 'UNDERLINE'
+, fontSize    : config.fontSize    || 16
+, fontFamily  : config.fontFamily  || '"Hack", "Hasklig", "Fira Code", "Fantasque Sans Mono", monospace'
+, termCSS     : `
+    ${config.termCSS || ''}
+    .cursor-node {
+      mix-blend-mode: difference;
+    }
+    .cursor-node[focus=true]:not([moving]) {
+      animation: blink 1s ease infinite;
+    }
+    @keyframes blink {
+      0%, 40% {
+        opacity: 0;
       }
-      .cursor-node[focus=true]:not([moving]) {
-        animation: blink 1s ease infinite;
+      50%, 90% {
+        opacity: 1;
       }
-      @keyframes blink {
-        0%, 40% {
-          opacity: 0;
-        }
-        50%, 90% {
-          opacity: 1;
-        }
-      }
-    `
-  , css      : `
-      ${config.css || ''}
-      .tab_tab {
-        color: ${turquoise} !important;
-        background-color: ${darkDust};
-      }
-      .tabs_list {
-        background-color: ${darkDust};
-        border-color: ${medDust};
-      }
-      .tab_tab.tab_active {
-        font-weight: 700;
-        color: ${softPurple} !important;
-        background-color: ${backgroundColor};
-        border-color: ${medDust};
-      }
-      .tab_active:before {
-        border-color: ${medDust};
-      }
-      .header_header {
-        top: 0;
-        right: 0;
-        left: 0;
-      }
-    `
-  })
-}
+    }
+  `
+, css      : `
+    ${config.css || ''}
+    .tab_tab {
+      color: ${turquoise} !important;
+      background-color: ${darkDust};
+    }
+    .tabs_list {
+      background-color: ${darkDust};
+      border-color: ${medDust};
+    }
+    .tab_tab.tab_active {
+      font-weight: 700;
+      color: ${softPurple} !important;
+      background-color: ${backgroundColor};
+      border-color: ${medDust};
+    }
+    .tab_active:before {
+      border-color: ${medDust};
+    }
+    .header_header {
+      top: 0;
+      right: 0;
+      left: 0;
+    }
+  `
+})
