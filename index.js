@@ -16,25 +16,24 @@ const
 , sage            = '#cbe5af'
 , softPurple      = '#c678dd'
 , turquoise       = '#75cec8'
-, colors          = [
-    backgroundColor
-  , creamRed
-  , lime
-  , mustard
-  , lightBlue
-  , softPurple
-  , turquoise
-  , lightDust
-  , medDust
-  , dryRed
-  , sage
-  , orange
-  , turquoise
-  , softPurple
-  , turquoise
-  , paleGreen
-  , foregroundColor
-  ]
+, colors          = {
+    black        : backgroundColor
+  , red          : creamRed
+  , green        : lime
+  , yellow       : mustard
+  , blue         : lightBlue
+  , magenta      : softPurple
+  , cyan         : turquoise
+  , white        : lightDust
+  , lightBlack   : medDust
+  , lightRed     : dryRed
+  , lightGreen   : sage
+  , lightYellow  : orange
+  , lightBlue    : turquoise
+  , lightMagenta : softPurple
+  , lightCyan    : paleGreen
+  , lightWhite   : foregroundColor
+  }
 
 exports.decorateConfig = config => {
   return Object.assign({}, config, {
@@ -44,8 +43,8 @@ exports.decorateConfig = config => {
   , cursorColor
   , colors
   , cursorShape : config.cursorShape || 'UNDERLINE'
-  , fontSize    : config.fontSize || 16
-  , fontFamily  : config.fontFamily || '"Hack", "Hasklig", "Fira Code", "Fantasque Sans Mono", monospace'
+  , fontSize    : config.fontSize    || 16
+  , fontFamily  : config.fontFamily  || '"Hack", "Hasklig", "Fira Code", "Fantasque Sans Mono", monospace'
   , termCSS     : `
       ${config.termCSS || ''}
       .cursor-node {
