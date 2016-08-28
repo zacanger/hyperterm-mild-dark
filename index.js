@@ -14,10 +14,10 @@ const
 , orange          = '#f4a748'
 , paleGreen       = '#cff3d3'
 , sage            = '#cbe5af'
-, softPurple      = '#c678dd'
-, softMagenta     = '#fcadeb'
-, turquoise       = '#75cec8'
 , softBlue        = '#a8cfe3'
+, softMagenta     = '#fcadeb'
+, softPurple      = '#c678dd'
+, turquoise       = '#75cec8'
 , colors          = {
     black        : backgroundColor
   , red          : creamRed

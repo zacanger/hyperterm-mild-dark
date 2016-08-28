@@ -11,3 +11,5 @@ by @mdo, which was forked from @jxnblk's
 * `$EDITOR ~/.hyperterm.js` (or `CMD+,` in HyperTerm)
 * Add `hyperterm-mild-dark` to your plugins array.
 * Reload (`CMD+Shift+R`)
+
+File manager in the screenshot is [ranger](http://ranger.nongnu.org).
