@@ -12,10 +12,12 @@ const
 , medDust         = '#a2a597'
 , mustard         = '#eacd84'
 , orange          = '#f4a748'
-, paleGreen       = '#e6f0e7'
+, paleGreen       = '#cff3d3'
 , sage            = '#cbe5af'
 , softPurple      = '#c678dd'
+, softMagenta     = '#fcadeb'
 , turquoise       = '#75cec8'
+, softBlue        = '#a8cfe3'
 , colors          = {
     black        : backgroundColor
   , red          : creamRed
@@ -23,14 +25,14 @@ const
   , yellow       : mustard
   , blue         : lightBlue
   , magenta      : softPurple
-  , cyan         : turquoise
+  , cyan         : softBlue
   , white        : lightDust
   , lightBlack   : medDust
   , lightRed     : dryRed
   , lightGreen   : sage
   , lightYellow  : orange
   , lightBlue    : turquoise
-  , lightMagenta : softPurple
+  , lightMagenta : softMagenta
   , lightCyan    : paleGreen
   , lightWhite   : foregroundColor
   }
