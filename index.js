@@ -1,40 +1,40 @@
 const
   backgroundColor = '#161716'
 , borderColor     = '#5d6560'
-, creamRed        = '#f68080'
+, red             = '#f68080'
 , cursorColor     = 'rgba(230,231,214,0.6)'
 , darkDust        = '#181a13'
-, dryRed          = '#e06c75'
+, lightRed        = '#e06c75'
 , foregroundColor = '#f8f9ea'
-, lightBlue       = '#7fdeec'
-, lightDust       = '#d2d8cf'
-, lime            = '#b1ec73'
-, medDust         = '#a2a597'
-, mustard         = '#eacd84'
-, orange          = '#f4a748'
-, paleGreen       = '#cff3d3'
-, sage            = '#cbe5af'
-, softBlue        = '#a8cfe3'
-, softMagenta     = '#fcadeb'
-, softPurple      = '#c678dd'
-, turquoise       = '#75cec8'
+, blue            = '#7fdeec'
+, white           = '#d2d8cf'
+, green           = '#b1ec73'
+, lightBlack      = '#a2a597'
+, yellow          = '#eacd84'
+, lightYellow     = '#f4a748'
+, lightCyan       = '#cff3d3'
+, lightGreen      = '#cbe5af'
+, cyan            = '#a8cfe3'
+, lightMagenta    = '#fcadeb'
+, magenta         = '#c678dd'
+, lightBlue       = '#75cec8'
 , colors          = {
-    black        : backgroundColor
-  , red          : creamRed
-  , green        : lime
-  , yellow       : mustard
-  , blue         : lightBlue
-  , magenta      : softPurple
-  , cyan         : softBlue
-  , white        : lightDust
-  , lightBlack   : medDust
-  , lightRed     : dryRed
-  , lightGreen   : sage
-  , lightYellow  : orange
-  , lightBlue    : turquoise
-  , lightMagenta : softMagenta
-  , lightCyan    : paleGreen
-  , lightWhite   : foregroundColor
+    black: backgroundColor
+  , red
+  , green
+  , yellow
+  , blue
+  , magenta
+  , cyan
+  , white
+  , lightBlack
+  , lightRed
+  , lightGreen
+  , lightYellow
+  , lightBlue
+  , lightMagenta
+  , lightCyan
+  , lightWhite: foregroundColor
   }
 
 exports.decorateConfig = config => Object.assign({}, config, {
@@ -66,21 +66,21 @@ exports.decorateConfig = config => Object.assign({}, config, {
 , css      : `
     ${config.css || ''}
     .tab_tab {
-      color: ${turquoise} !important;
+      color: ${lightBlue} !important;
       background-color: ${darkDust};
     }
     .tabs_list {
       background-color: ${darkDust};
-      border-color: ${medDust};
+      border-color: ${lightBlack};
     }
     .tab_tab.tab_active {
       font-weight: 700;
-      color: ${softPurple} !important;
+      color: ${magenta} !important;
       background-color: ${backgroundColor};
-      border-color: ${medDust};
+      border-color: ${lightBlack};
     }
     .tab_active:before {
-      border-color: ${medDust};
+      border-color: ${lightBlack};
     }
     .header_header {
       top: 0;
