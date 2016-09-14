@@ -1,25 +1,27 @@
 const
   backgroundColor = '#161716'
-, borderColor     = '#5d6560'
-, red             = '#f68080'
-, cursorColor     = 'rgba(230,231,214,0.6)'
-, darkDust        = '#181a13'
-, lightRed        = '#e06c75'
-, foregroundColor = '#f8f9ea'
+, black           = '#3d3d3d'
 , blue            = '#7fdeec'
-, white           = '#d2d8cf'
+, borderColor     = '#5d6560'
+, cursorColor     = 'rgba(230,231,214,0.6)'
+, cyan            = '#a8cfe3'
+, darkDust        = '#181a13'
+, foregroundColor = '#f8f9ea'
 , green           = '#b1ec73'
 , lightBlack      = '#a2a597'
-, yellow          = '#eacd84'
-, lightYellow     = '#f4a748'
+, lightBlue       = '#75cec8'
 , lightCyan       = '#cff3d3'
 , lightGreen      = '#cbe5af'
-, cyan            = '#a8cfe3'
 , lightMagenta    = '#fcadeb'
+, lightRed        = '#e06c75'
+, lightWhite      = '#fafbf8'
+, lightYellow     = '#f4a748'
 , magenta         = '#c678dd'
-, lightBlue       = '#75cec8'
+, red             = '#f68080'
+, white           = '#d2d8cf'
+, yellow          = '#eacd84'
 , colors          = {
-    black: backgroundColor
+    black
   , red
   , green
   , yellow
@@ -34,7 +36,7 @@ const
   , lightBlue
   , lightMagenta
   , lightCyan
-  , lightWhite: foregroundColor
+  , lightWhite
   }
 
 exports.decorateConfig = config => Object.assign({}, config, {
