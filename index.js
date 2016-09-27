@@ -21,23 +21,23 @@ const
 , white           = '#d2d8cf'
 , yellow          = '#eacd84'
 , colors          = {
-    black
-  , red
-  , green
-  , yellow
-  , blue
-  , magenta
-  , cyan
-  , white
-  , lightBlack
-  , lightRed
-  , lightGreen
-  , lightYellow
-  , lightBlue
-  , lightMagenta
-  , lightCyan
-  , lightWhite
-  }
+  black
+, red
+, green
+, yellow
+, blue
+, magenta
+, cyan
+, white
+, lightBlack
+, lightRed
+, lightGreen
+, lightYellow
+, lightBlue
+, lightMagenta
+, lightCyan
+, lightWhite
+}
 
 exports.decorateConfig = config => Object.assign({}, config, {
   foregroundColor
