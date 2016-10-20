@@ -16,7 +16,7 @@ If it doesn't quite suit you, you should check out other themes
 
 ## Install
 
-* `$EDITOR ~/.hyperterm.js` (or `CMD+,` in Hyper)
+* `$EDITOR ~/.hyper.js`
 * Add `hyperterm-mild-dark` to your plugins array.
 * Reload (`CMD+Shift+R`)
 
