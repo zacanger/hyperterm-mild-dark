@@ -1,4 +1,6 @@
-# Mild Dark Theme for HyperTerm
+# Mild Dark Theme for Hyper
+
+Theme for [Hyper](https://hyper.is) (previously HyperTerm).
 
 ![screenshot](http://zacanger.com/hyperterm.png)
 
@@ -14,8 +16,8 @@ If it doesn't quite suit you, you should check out other themes
 
 ## Install
 
-* `$EDITOR ~/.hyperterm.js` (or `CMD+,` in HyperTerm)
+* `$EDITOR ~/.hyperterm.js` (or `CMD+,` in Hyper)
 * Add `hyperterm-mild-dark` to your plugins array.
 * Reload (`CMD+Shift+R`)
 
-File manager in the screenshot is [ranger](http://ranger.nongnu.org).
+Music player in the screenshot is [MOC](https://moc.daper.net).
