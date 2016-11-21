@@ -112,7 +112,7 @@ exports.decorateConfig = config => Object.assign({}, config, {
       border-color: transparent !important;
     }
     .header_header {
-      background-color: ${black} !important;
+      background-color: ${backgroundColor} !important;
       top: 0;
       right: 0;
       left: 0;
