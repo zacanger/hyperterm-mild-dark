@@ -57,7 +57,7 @@ exports.decorateConfig = config => Object.assign({}, config, {
 , colors
 , cursorShape : config.cursorShape || 'UNDERLINE'
 , fontSize    : config.fontSize    || 14
-, fontFamily  : config.fontFamily  || '"Hack", "Hasklig", "Fira Code", "Fantasque Sans Mono", monospace'
+, fontFamily  : config.fontFamily  || '"Hasklig", "Fira Code", "Hack", "Fantasque Sans Mono", monospace'
 , termCSS     : `
     ${config.termCSS || ''}
     .cursor-node {
