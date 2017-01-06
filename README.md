@@ -19,5 +19,3 @@ If it doesn't quite suit you, you should check out other themes
 * `$EDITOR ~/.hyper.js`
 * Add `hyperterm-mild-dark` to your plugins array.
 * Reload (`CMD+Shift+R`)
-
-Music player in the screenshot is [MOC](https://moc.daper.net).
