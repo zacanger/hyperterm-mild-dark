@@ -10,7 +10,7 @@ const
 , foregroundColor = '#f8f9ea'
 , gray            = '#404040'
 , green           = '#b1ec73'
-, lightBlack      = '#a2a597' // 8b8b8b
+, lightBlack      = '#a2a597'
 , lightBlue       = '#75cec8'
 , lightCyan       = '#cff3d3'
 , lightGreen      = '#cbe5af'
