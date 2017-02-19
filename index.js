@@ -1,30 +1,30 @@
 const
   backgroundColor = '#161716'
 , black           = '#3d3d3d'
-, blue            = '#7fdeec' // 4da6bd // 77c8f2 // 50b4dc
+, blue            = '#7fdeec'
 , borderColor     = '#5d6560'
 , cursorColor     = 'rgba(230,231,214,0.6)'
-, cyan            = '#a8cfe3' // 3fc172 // 83aada
+, cyan            = '#a8cfe3'
 , darkDust        = '#181a13'
 , darkGray        = '#999'
 , foregroundColor = '#f8f9ea'
-, gray            = '#404040' // ababab // 62758b
-, green           = '#b1ec73' // 8dc34d // 61e078 // 1abc9c
-, lightBlack      = '#a2a597' // 333435 // 1a1a1a // 8b8b8b
+, gray            = '#404040'
+, green           = '#b1ec73'
+, lightBlack      = '#a2a597' // 8b8b8b
 , lightBlue       = '#75cec8'
 , lightCyan       = '#cff3d3'
 , lightGreen      = '#cbe5af'
 , lightMagenta    = '#fcadeb'
-, lightRed        = '#e06c75'
+, lightRed        = '#f68080'
 , lightWhite      = '#fafbf8'
 , lightYellow     = '#f4a748'
-, magenta         = '#c678dd' // b49cda // ff69b4
+, magenta         = '#c678dd'
 , orange          = '#ffbd37'
 , pink            = '#ffb5da'
 , purple          = '#ae81ff'
-, red             = '#f68080' // e16c5b // ff5b53 // ff435b
+, red             = '#e16c5b'
 , white           = '#d2d8cf'
-, yellow          = '#eacd84' // e8bf6a // f1ae13 // fac863
+, yellow          = '#eacd84'
 , colors          = {
   black
 , blue
