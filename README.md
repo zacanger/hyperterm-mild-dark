@@ -19,3 +19,17 @@ If it doesn't quite suit you, you should check out other themes
 * `$EDITOR ~/.hyper.js`
 * Add `hyperterm-mild-dark` to your plugins array.
 * Reload (`CMD+Shift+R`)
+
+## Notes
+
+This theme defaults to fonts with ligatures, if you have them installed (Haskig
+and Fira Code; if there are others you like, let me know!). You can disable
+ligatures by putting the following snippet in your `~/.hyper.js` under `config`:
+
+```javascript
+termCSS: `
+  x-screen x-row {
+    font-variant-ligatures: none;
+  }
+`
+```
