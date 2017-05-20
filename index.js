@@ -60,6 +60,9 @@ exports.decorateConfig = config => Object.assign({}, config, {
 , fontFamily  : config.fontFamily  || '"Hasklig", "Fira Code", "Hack", "Fantasque Sans Mono", monospace'
 , termCSS     : `
     ${config.termCSS || ''}
+    x-screen x-row {
+      font-variant-ligatures: initial;
+    }
     .cursor-node {
       mix-blend-mode: difference;
     }
