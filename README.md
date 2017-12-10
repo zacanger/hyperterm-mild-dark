@@ -2,7 +2,7 @@
 
 Theme for [Hyper](https://hyper.is) (previously HyperTerm).
 
-![screenshot](http://zacanger.com/hyperterm.png)
+![screenshot](http://zacanger.com/assets/hyperterm.png)
 
 Forked from the [Atom One Dark Theme for HyperTerm](https://github.com/mdo/hyperterm-atom-dark)
 by @mdo, which was forked from @jxnblk's
