@@ -1,5 +1,7 @@
 # Mild Dark Theme for Hyper
 
+**Unmaintained**
+
 Theme for [Hyper](https://hyper.is) (previously HyperTerm).
 
 ![screenshot](/screenshot.png?raw=true)
